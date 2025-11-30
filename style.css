@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --color-slate-900: #1f314f;
+  --color-slate-500: #68778d;
+  --color-slate-300: #d5e1ef;
+  --font-size1: 22px;
+  --line-height-custom1: 120%;
+  --letter-spacing-custom1: 0px;
+  --font-size-text-2: 15px;
+  --line-height-custom2: 140%;
+  --letter-spacing-custom2: 0.2px;
+  --font-family-outfit: "Outfit", sans-serif;
+}

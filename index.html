@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./dist/output.css" />
+    <title>Frontend Mentor | QR code component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body class="bg-slate-300 font-family-outfit min-h-screen flex flex-col">
+    <main class="flex-1 flex justify-center w-full items-center p-4 sm:p-6">
+      <div
+        class="bg-white max-w-[320px] p-4 rounded-[20px] shadow-lg text-center flex flex-col gap-4 sm:gap-6"
+      >
+        <div class="rounded-[10px] overflow-hidden aspect-square">
+          <img
+            src="./images/image-qr-code.png"
+            class="w-full h-full object-cover"
+            alt="QR code to Frontend Mentor"
+          />
+        </div>
+        <div class="flex flex-col gap-3 sm:gap-4 px-2 pb-2">
+          <h3
+            class="text-slate-900 text-[20px] sm:text-[22px] leading-[120%] font-bold"
+          >
+            Improve your front-end skills by building projects
+          </h3>
+          <p class="text-slate-500 text-[14px] sm:text-[15px] leading-[140%]">
+            Scan the QR code to visit Frontend Mentor and take your coding
+            skills to the next level
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Biu Ali Dauda</a>.
+    </div>
+  </body>
+</html>
